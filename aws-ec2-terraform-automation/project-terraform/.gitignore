@@ -1,0 +1,21 @@
+# Ignore private keys
+*.pem
+*.key
+*dove*
+
+# Ignore terraform state files (important for security)
+terraform.tfstate
+terraform.tfstate.backup
+
+# Ignore hidden terraform folder
+.terraform/
+
+# Ignore environment files
+.env
+
+# Ignore AWS credentials 
+.aws/
+
+# Ignore local IDE files
+.vscode/
+.idea/
